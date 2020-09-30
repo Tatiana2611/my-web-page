@@ -51,14 +51,24 @@ textPath {
 }
 
 textPath:nth-child(1) {
-    font-size: 15px;
-  }
-  textPath:nth-child(2) {
     font-size: 20px;
   }
-  textPath:nth-child(3) {
-    font-size: 25px;
+  textPath:nth-child(2) {
+    font-size: 40px;
   }
+  textPath:nth-child(3) {
+    font-size: 60px;
+  }
+
+svg {
+    margin-top: -150px;
+    width: 100%;
+    height: 100%;
+}
+
+h1 {
+    margin-top: 40px;
+}
 
 .features h2 {
     text-transform: uppercase;
@@ -80,15 +90,17 @@ textPath:nth-child(1) {
 .features__list {
     position: relative;
     background: #eeeeee;
-    min-width: 30%;
+    width: 20%;
     border-radius: 15px;
-    padding: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
     text-align: center;
     color: #000000; 
 }
 
 .features__list p {
     padding-top: 30px;
+    font-size: 20px;
 }
 
 .features__list::before {
@@ -103,9 +115,9 @@ textPath:nth-child(1) {
 }
 
 .skills {
-    width: 50%;
+    width: 90%;
     margin: auto;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     border-bottom: #35E6FE solid 3px;
 }
 
@@ -126,13 +138,21 @@ textPath:nth-child(1) {
 
 .about-text {
     display: flex;
-    width: 50%;
+    width: 90%;
     margin: auto;
     align-items: center;
     flex-direction: column;
     gap: 10px;
     padding-top: 25px;
-    padding-bottom: 30px;
+    margin-bottom: 120px;
+}
+
+.about-text h2 {
+    text-transform: uppercase;
+    font-size: 20px;
+    text-align: center;
+    color: #000000;
+    font-weight: 400;
 }
 
 .about-text p {
