@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>T4support</title>
-    <script src="./js/waves.js" defer></script>
+    <script src="./js/main.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -13,9 +13,10 @@
     <div class="wrapper">
         <header class="header">
             <a href="#">
-                <img src="./images/Group 1.png" alt="">
+                <img class="header__logo" src="./images/Group 1.png" alt="">
             </a>
             <nav class="header__nav">
+                
                 <ul class="header__items">
                     <li>
                         <a href="#t1">About myself</a>
@@ -28,6 +29,24 @@
                     </li>
                 </ul>
             </nav>
+            <div class="header__menu-btn">
+                <div class="header__menu-row"></div>
+                <div class="header__menu-row"></div>
+                <div class="header__menu-row"></div>
+            </div>
+            <div class="menu__mobile">
+                <ul>
+                    <li>
+                        <a href="#t1">About myself</a>
+                    </li>
+                    <li>
+                        <a href="#t2">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#t3">Contact</a>
+                    </li>
+                </ul>
+            </div>
         </header>
         <div class="heading">
             <svg viewBox="0 0 1152 700" fill="none">
@@ -45,16 +64,13 @@
         <section class="features">
             <h2 id="t1">About myself</h2>
             <div class="features__container">
-                <div class="features__list">
-                    <img src="./images/bug-150.png" alt="">
+                <div class="feature bug">
                     <p>I do technical support</p>
                 </div>
-                <div class="features__list">
-                   <img src="./images/worldwide-location-150.png" alt="">
+                <div class="feature remote">
                     <p>I work remotely</p>
                 </div>
-                <div class="features__list">
-                    <img src="./images/cool-150.png" alt="">
+                <div class="feature cool">
                     <p>I love helping people</p>
                 </div>
             </div>
@@ -65,7 +81,7 @@
                 <li>HTML/CSS/JS</li>
                 <li>SCSS/Gulp/Git</li>
                 <li>Jira/Atlassian</li>
-                <li>bug creation</li>
+                <li>bug investigation</li>
                 <li>'How to' articles</li>
                 <li>Zendesk/Intercom</li>
             </ul>
