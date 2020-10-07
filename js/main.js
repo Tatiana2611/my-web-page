@@ -15,6 +15,7 @@ Button.addEventListener('click', toggleMenu)
 
 function toggleMenu() {
     menuMobile.classList.toggle('menu__mobile-show');
+    menuMobile.classList.add('menu__mobile-transition');
 }
 
 const mobileLinks = document.querySelectorAll('.menu__mobile li a');
@@ -22,5 +23,5 @@ const mobileLinks = document.querySelectorAll('.menu__mobile li a');
 mobileLinks.forEach( 
     function(mobileLink) { 
       mobileLink.addEventListener("click", toggleMenu) 
-    }
+    } 
   )
