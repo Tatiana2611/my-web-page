@@ -163,8 +163,7 @@ h1 {
     position: relative;
     width: 25%;
     border-radius: 15px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding: 20px 20px;
     text-align: center;
     color: #000000; 
 }
@@ -207,7 +206,6 @@ h1 {
     .features__container {
         display: flex;
         flex-direction: column;
-        align-content: center;
         align-items: center;
     }
 
@@ -222,6 +220,7 @@ h1 {
     width: 90%;
     margin: auto;
     padding-bottom: 60px;
+    padding-top: 20px;
     border-bottom: #35E6FE solid 3px;
 }
 
