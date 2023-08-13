@@ -6,26 +6,6 @@
     <title>T4support</title>
     <link rel="icon" href="/images/T-icon.png"/>
     <script src="./js/main.js" defer></script>
-    <script>
-        (function (m, a, z, e) {
-            var s, t;
-            try {
-                t = m.sessionStorage.getItem('maze-us');
-            } catch (err) {}
-
-            if (!t) {
-                t = new Date().getTime();
-                try {
-                    m.sessionStorage.setItem('maze-us', t);
-                } catch (err) {}
-            }
-
-            s = a.createElement('script');
-            s.src = z + '?t=' + t + '&apiKey=' + e;
-            a.getElementsByTagName('head')[0].appendChild(s);
-            m.mazeUniversalSnippetApiKey = e
-        })(window, document, 'https://snippet.maze.co/maze-universal-loader.js', 'd11807a3-f0c7-4e09-a555-4a538dd6a88e');
-    </script>
     <link href="https://fonts.googleapis.com/css2?family=PT+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/style.css">
@@ -101,14 +81,16 @@
                 <li>HTML/CSS/JS</li>
                 <li>SCSS/Gulp/Git</li>
                 <li>Jira/Atlassian</li>
+                <li>Poatman</li>
+                <li>Zendesk</li>
                 <li>bug investigation</li>
                 <li>'How to' articles</li>
-                <li>Zendesk/Intercom</li>
+                <li>Troubleshooting</li>
             </ul>
         </div>
         <div class="about-text">
             <h2> Hey!</h2>
-            <p>📌 My name is Tatiana and I am based in Kyiv, Ukraine 😎
+            <p>📌 My name is Tatiana and  
             I am excited about the opportunity to join the team 🙌 
             where I can develop technical skills 💾  and explore new practices💥 
             It would be great to apply my knowledge to the new project🔥🔥
