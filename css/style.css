@@ -122,13 +122,13 @@ textPath {
 }
 
 textPath:nth-child(1) {
-    font-size: 20px;
+    font-size: 18px;
   }
   textPath:nth-child(2) {
-    font-size: 40px;
+    font-size: 34px;
   }
   textPath:nth-child(3) {
-    font-size: 60px;
+    font-size: 48px;
   }
 
 svg {
@@ -175,10 +175,10 @@ h1 {
     background-size: 100px;
 }
 
-.remote {
-    background: url(../images/worldwide-location-150.png) no-repeat, #eeeeee;
+.investigate {
+    background: url(../images/investigate-150.png) no-repeat, #eeeeee;
     background-position: 50% 30%;
-    background-size: 100px;
+    background-size: 230px;
 }
 
 .cool {
