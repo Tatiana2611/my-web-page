@@ -270,5 +270,22 @@ a {
     transition: all 0.5s;
 }
 
+@media (max-width: 600px) {
+    textPath:nth-child(1) {
+        font-size: 32px;
+    }
+
+    textPath:nth-child(2) {
+        font-size: 40px;
+    }
+
+    textPath:nth-child(3) {
+        font-size: 54px;
+    }
+
+    .heading {
+        margin-bottom: 70px;
+    }
+}
 
 
