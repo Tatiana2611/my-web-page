@@ -71,7 +71,7 @@ html {
     font-size: 30px;
     text-align: center;
     color: #000000;
-    margin-bottom: 200px;
+    margin-bottom: 120px;
 }
 
 @media (max-width: 825px) {
@@ -246,7 +246,7 @@ h1 {
     margin: auto;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+    gap: 0px;
     padding-top: 60px;
     margin-bottom: 120px;
 }
@@ -263,6 +263,7 @@ h1 {
 .about-text p {
     text-align: left;
     line-height: 1.8;
+    margin-bottom: 24px;
 }
 
 a {
