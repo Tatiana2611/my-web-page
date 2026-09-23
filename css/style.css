@@ -3,6 +3,10 @@ html {
     font-family: 'PT Mono', monospace;
 }
 
+body {
+    background-color: #F7F7F5;
+}
+
 *, *::before, *::after {
     box-sizing: inherit;
 }
@@ -24,6 +28,9 @@ html {
 
 .header__logo {
     margin-top: 30px;
+    width: 250px;
+    height: auto;
+    display: block;
 }
 
 .header__items {
@@ -139,11 +146,11 @@ svg {
 
 @media (min-width: 826px) {
     .heading svg {
-        height: 520px;
+        height: 440px;
     }
 
     textPath:nth-child(1) {
-        font-size: 24px;
+        font-size: 30px;
     }
 
     textPath:nth-child(2) {
